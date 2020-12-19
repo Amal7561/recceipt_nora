@@ -1,0 +1,112 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.logo {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+section {
+    width: 700px;
+    margin-top: 50px;
+}
+
+.heading {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.heading h4 {
+    font-weight: 100;
+    font-size: 25px;
+    margin-bottom: 10px;
+}
+
+.heading h4 .nora {
+    color: #001B94;
+}
+
+.amount {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #737c88
+}
+
+.amount .one {
+    text-align: left;
+}
+
+.amount .one h4 {
+    color: #bbc8d8;
+    margin-bottom: 5px;
+}
+
+.visa {
+    font-weight: bold;
+}
+
+.summary {
+    margin-top: 40px;
+}
+
+.summary h4 {
+    color: #bbc8d8;
+}
+
+.summary .card {
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.summary .card .payment {
+    display: flex;
+    justify-content: space-between;
+    padding: 8px;
+}
+
+.summary .card .payment span {
+    font-weight: bold;
+    font-size: 18px;
+    color: #4b4646;
+}
+
+.desc1 {
+    margin: 40px 0;
+}
+
+.desc2 {
+    margin: 20px 0;
+}
+
+.info {
+    margin-bottom: 50px;
+}
+
+.desc2 .info .view {
+    color: blue;
+}
+
+.strip {
+    background: yellow;
+    font-weight: bold;
+}
+
+.desc1,
+.desc2 {
+    font-size: 14px;
+}
