@@ -15,6 +15,7 @@ body {
 section {
     width: 700px;
     margin-top: 40px;
+    margin-left: 20px;
 }
 
 .logo {
@@ -44,13 +45,12 @@ section {
 
 .amount {
     display: flex;
-    justify-content: space-between;
-    align-items: center;
     color: #737c88
 }
 
 .amount .one {
     text-align: left;
+    margin-right: 80px;
 }
 
 .amount .one h4 {
@@ -77,7 +77,6 @@ section {
 
 .summary .card .payment {
     display: flex;
-    justify-content: space-between;
     padding: 8px;
 }
 
@@ -85,6 +84,10 @@ section {
     font-weight: bold;
     font-size: 18px;
     color: #4b4646;
+}
+
+.summary .card .payment .dolar {
+    margin-left: 250px;
 }
 
 .desc1 {
