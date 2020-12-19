@@ -15,7 +15,6 @@ body {
 section {
     width: 700px;
     margin-top: 40px;
-    margin-left: 325px;
 }
 
 .logo {
@@ -23,8 +22,9 @@ section {
     margin-bottom: 20px;
 }
 
-.logo svg {
+.logo h1 {
     height: 30px;
+    font-family: "Arial", "sans-serif";
 }
 
 .heading {
