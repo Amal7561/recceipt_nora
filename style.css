@@ -9,10 +9,13 @@ a {
 }
 
 body {
-    display: flex;
-    justify-content: center;
-    align-items: center;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+section {
+    width: 700px;
+    margin-top: 40px;
+    margin-left: 325px;
 }
 
 .logo {
@@ -20,9 +23,8 @@ body {
     margin-bottom: 20px;
 }
 
-section {
-    width: 700px;
-    margin-top: 50px;
+.logo svg {
+    height: 30px;
 }
 
 .heading {
@@ -56,7 +58,7 @@ section {
     margin-bottom: 5px;
 }
 
-.visa {
+.amount .one .visa {
     font-weight: bold;
 }
 
@@ -93,7 +95,7 @@ section {
     margin: 20px 0;
 }
 
-.info {
+.desc .info {
     margin-bottom: 50px;
 }
 
@@ -101,7 +103,7 @@ section {
     color: blue;
 }
 
-.strip {
+.desc2 .strip {
     background: yellow;
     font-weight: bold;
 }

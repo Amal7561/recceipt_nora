@@ -5,15 +5,171 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="style.css">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        a {
+            text-decoration: none;
+        }
+        
+        body {
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        }
+        
+        section {
+            width: 700px;
+            margin-top: 40px;
+            margin-left: 325px;
+        }
+        
+        .logo {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+        
+        .logo svg {
+            height: 30px;
+        }
+        
+        .heading {
+            text-align: center;
+            margin-bottom: 40px;
+        }
+        
+        .heading h4 {
+            font-weight: 100;
+            font-size: 25px;
+            margin-bottom: 10px;
+        }
+        
+        .heading h4 .nora {
+            color: #001B94;
+        }
+        
+        .amount {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            color: #737c88
+        }
+        
+        .amount .one {
+            text-align: left;
+        }
+        
+        .amount .one h4 {
+            color: #bbc8d8;
+            margin-bottom: 5px;
+        }
+        
+        .amount .one .visa {
+            font-weight: bold;
+        }
+        
+        .summary {
+            margin-top: 40px;
+        }
+        
+        .summary h4 {
+            color: #bbc8d8;
+        }
+        
+        .summary .card {
+            padding: 10px;
+            border-radius: 5px;
+        }
+        
+        .summary .card .payment {
+            display: flex;
+            justify-content: space-between;
+            padding: 8px;
+        }
+        
+        .summary .card .payment span {
+            font-weight: bold;
+            font-size: 18px;
+            color: #4b4646;
+        }
+        
+        .desc1 {
+            margin: 40px 0;
+        }
+        
+        .desc2 {
+            margin: 20px 0;
+        }
+        
+        .desc .info {
+            margin-bottom: 50px;
+        }
+        
+        .desc2 .info .view {
+            color: blue;
+        }
+        
+        .desc2 .strip {
+            background: yellow;
+            font-weight: bold;
+        }
+        
+        .desc1,
+        .desc2 {
+            font-size: 14px;
+        }
+    </style>
 </head>
 
 <body>
 
     <section>
         <div class="logo">
-            <a href="https://nora.legal" target="_blank"><img src="https://nora.legal/assets/nora.legal.svg" alt="Nora Logo"></a>
+            <svg version="1.0" xmlns="http://www.w3.org/2000/svg" width="294.000000pt" height="38.000000pt" viewBox="0 0 294.000000 38.000000" preserveAspectRatio="xMidYMid meet">
+
+<g transform="translate(0.000000,38.000000) scale(0.100000,-0.100000)"
+fill="#000000" stroke="none">
+<path d="M22 190 c0 -168 0 -170 21 -170 22 0 22 2 19 132 -3 154 -8 155 88
+-15 62 -111 67 -116 98 -117 l32 0 0 170 c0 162 -1 170 -20 170 -18 0 -20 -8
+-22 -131 l-3 -132 -75 132 c-71 123 -77 131 -106 131 l-31 0 -1 -170z"/>
+<path d="M435 346 c-127 -56 -140 -258 -21 -315 48 -24 65 -25 118 -11 45 13
+93 52 114 92 22 42 20 131 -3 171 -41 69 -131 97 -208 63z m132 -67 c70 -67
+40 -215 -47 -233 -78 -15 -137 52 -127 147 4 43 10 56 42 85 32 29 42 33 73
+29 19 -4 46 -16 59 -28z"/>
+<path d="M750 354 l-26 -5 -1 -164 -1 -165 31 0 32 0 -3 61 -4 60 33 -3 c28
+-3 36 -11 62 -60 25 -49 34 -58 57 -58 15 0 29 3 32 6 3 3 -9 30 -28 61 l-33
+56 29 34 c41 46 41 100 2 144 -25 28 -34 31 -92 34 -36 2 -76 1 -90 -1z m130
+-54 c43 -43 13 -130 -44 -130 -50 0 -56 8 -56 74 0 35 3 66 7 69 14 15 74 6
+93 -13z"/>
+<path d="M1070 243 c-24 -65 -54 -142 -66 -170 l-23 -53 22 0 c18 0 26 10 37
+43 l15 42 68 3 67 3 20 -46 c17 -40 23 -45 51 -45 21 0 29 4 26 13 -8 19 -96
+247 -111 287 -10 25 -21 36 -38 38 -23 3 -28 -5 -68 -115z m89 -36 c11 -32 21
+-60 21 -62 0 -3 -25 -5 -56 -5 -49 0 -55 2 -49 18 4 9 16 41 27 70 11 30 24
+50 28 45 4 -4 17 -34 29 -66z"/>
+<path d="M1480 190 l0 -170 99 0 c81 0 100 3 105 16 14 36 8 39 -69 36 l-75
+-4 0 146 0 146 -30 0 -30 0 0 -170z"/>
+<path d="M1745 187 l0 -168 110 3 c110 3 110 3 113 29 3 25 2 25 -47 19 -27
+-3 -65 -4 -85 -2 -36 4 -36 4 -36 53 l0 49 70 0 c63 0 70 2 70 20 0 18 -7 20
+-71 20 l-70 0 3 48 3 47 80 0 c78 0 80 1 83 25 l3 25 -113 0 -113 0 0 -168z"/>
+<path d="M2123 339 c-53 -26 -83 -73 -90 -142 -13 -129 65 -203 187 -176 69
+15 77 25 82 102 l4 67 -31 0 -31 0 4 -65 4 -65 -50 0 c-77 0 -105 28 -110 111
+-4 73 17 124 61 149 23 13 31 12 78 -8 29 -12 53 -21 55 -19 1 1 5 12 8 24 6
+19 2 25 -19 33 -42 16 -107 12 -152 -11z"/>
+<path d="M2473 343 c-6 -18 -110 -285 -120 -311 -4 -10 1 -13 17 -10 16 2 27
+13 33 33 17 51 25 56 95 53 l65 -3 15 -42 c12 -39 17 -43 47 -43 l33 0 -53
+133 c-28 72 -57 149 -64 170 -10 29 -18 37 -37 37 -14 0 -27 -7 -31 -17z m51
+-135 l25 -68 -56 0 c-53 0 -55 1 -49 24 9 35 46 120 50 115 3 -2 16 -34 30
+-71z"/>
+<path d="M2714 190 l-1 -170 98 0 c79 0 98 3 103 16 14 36 8 39 -69 36 l-75
+-4 0 146 0 146 -28 0 -27 0 -1 -170z"/>
+<path d="M1342 77 l-22 -23 23 -22 23 -22 22 23 22 23 -23 22 -23 22 -22 -23z"/>
+</g>
+</svg>
+
         </div>
+
         <div class="heading">
             <h4>Receipt from <span class="nora">Nora Legal</span></h4>
             <span>Receipt#1634-5542</span>
